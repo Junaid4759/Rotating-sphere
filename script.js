@@ -96,4 +96,4 @@ gl.useProgram(shaderProgram);
 
 var vertexPositionAttribute = gl.getAttribLocation(shaderProgram, 'aVertexPosition');
 gl.enableVertexAttribArray(vertexPositionAttribute);
-gl.bindBuffer
+gl.bindBuffer(gl.ARRAY_BUFFER, vertex
